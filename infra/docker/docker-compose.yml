@@ -1,0 +1,16 @@
+version: "3.9"
+services:
+  api:
+    command: uvicorn main:app --host '0.0.0.0' --port 5000
+    build:
+      context: ../../
+      dockerfile: ./infra/docker/Dockerfile
+    restart: always
+    ports:
+      - "5006:5000"
+    networks:
+      - services
+networks:
+  services:
+    external: true
+    name: 'services_services'

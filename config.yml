@@ -1,0 +1,19 @@
+APP_NAME: real-estate
+ENVIRONMENT: local
+DEBUG: true
+TEST: false
+LOCAL: true
+
+MYSQL:
+  HOST: mysql
+  PORT: 3306
+  NAME: realestate
+  USER: root
+  PASS: 123456
+
+#MONGO:
+#  HOST: mongodb
+#  PORT: 27017
+#  NAME: dbName
+#  USER: user
+#  PASS: 1234

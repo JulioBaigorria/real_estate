@@ -1,0 +1,34 @@
+fastapi == 0.88.0
+uvicorn == 0.20.0
+
+## CONFIG
+pyyaml == 6.0
+
+## JSON LOGGER
+python-json-logger == 2.0.4
+
+## OTHERS
+orjson == 3.8.3
+
+## CACHE
+# aioredis == 2.0.1
+
+## NO SQL DB
+# pymongo == 4.3.3
+# motor == 3.1.1
+# beanie == 1.15.4
+
+## SQL DB
+sqlalchemy == 1.4.45
+pymysql == 1.0.2
+alembic == 1.9.1
+
+## CLI COMMANDS
+# click == 8.1.3
+
+## SYNC REQUESTS
+# aiohttp == 3.8.3
+
+python_stdnum == 1.17
+
+email-validator == 1.2.1
